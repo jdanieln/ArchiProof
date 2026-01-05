@@ -205,3 +205,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.ipynb_checkpoints
+build/
+dist/
+*.egg-info/
+
+# --- LEAN 4 (CRITICO) ---
+lake-packages/
+.lake/
+build/
+out/
+oleany/
+
+# --- IDE ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- SEGURIDAD (CRITICO) ---
+.env
+api_keys.txt
+config.json/.lake
